@@ -10,7 +10,7 @@
 //     void add(complex c1,complex c2)
 //     {
         
-//         System.out.println("addition of two complex number is: "+(c1.real+c2.real)+"+"+(c1.image+c1.image)+" i");
+//         System.out.println("addition of two complex number is: "+(c1.real+c2.real)+"+"+(c1.image+c2.image)+" i");
 //     }
 // }
 // public class complexnumber {
