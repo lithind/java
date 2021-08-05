@@ -12,7 +12,7 @@ public class odd_position{
         {
             arr[i]=sc.nextInt();
         }
-        System.out.print("The elements of  array present on even position:"); 
+        System.out.print("The elements of  array present on odd position:"); 
         System.out.print("\n"); 
         for(int i=0;i<size;i++)
         {

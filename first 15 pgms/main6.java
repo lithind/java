@@ -3,7 +3,8 @@ public class main6{
         int a=-7;
         int b=77;
         int c=9;
-        if ((a>b) && (a>c)){
+        if ((a>b) && (a>c)) 
+        {
             System.out.println(a+" is largest");
         }
         else if((b>a) && (b>c))

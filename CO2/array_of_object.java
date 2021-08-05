@@ -68,19 +68,22 @@ public class array_of_object{
 //    String eName;
 //    int eSalary;
 //    void GetData()
-//          {
+//         {
 //        Scanner sc=new Scanner(System.in);
 //        System.out.println("enter the employee id:");
-//        eNo=Integer.parseInt(sc.nextLine());
+//        eNo=sc.nextInt();
 //        System.out.println("enter the employee name:");
-//        eName=sc.nextLine();
+//        eName=sc.next();
 //        System.out.println("enter the employee salary:");
-//        eSalary=Integer.parseInt(sc.nextLine());
-// }
+//        eSalary=sc.nextInt();
+//         }
 //     void PutData()
 //         {
 //        System.out.println("\n\t"+eNo+"\t"+eName+"\t"+eSalary);
 //         }
+//     }
+// class array_of_object
+// {
 // public static void main(String args[])
 //       {
 //       int no;
@@ -98,12 +101,15 @@ public class array_of_object{
 //         emp[i].GetData();
 //        }
 //        System.out.println("the employee datils are:");
+//        System.out.println("id    |     name     |     salary     ");
+
+
 //        for(int i=0;i<n;i++)
 //        emp[i].PutData();
 //        System.out.println("enter the employee_no to search:");
 //        no=sc.nextInt();
 //        for(int i=0;i<emp.length;i++)
-//           {
+//         {
       
 //            if(emp[i].eNo==no)
 //             {
