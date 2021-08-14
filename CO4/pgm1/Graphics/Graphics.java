@@ -1,12 +1,12 @@
 package Graphics;
 interface interface_graphics{
-    void rectangleArea(int l, int h);
-    void circleArea(int r);
-    void squareArea(int a);
-    void triangleArea(int l, int h);
+    public void rectangleArea(int l, int h);
+    public void circleArea(int r);
+    public void squareArea(int a);
+    public void triangleArea(int l, int h);
 }
 
-class Graphics implements interface_graphics {
+public class Graphics implements interface_graphics {
     
     public void  rectangleArea(int l, int h){
         System.out.println("Area of Rectangle : "+l*h) ;
