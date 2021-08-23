@@ -148,13 +148,13 @@ class ProductBill
         }
         System.out.println("Order No : "+order_number);
         System.out.println("\n Date  : "+java.time.LocalDate.now());
-        System.out.print("\nProduct Id\tName\tQuantity\tUnit price\t Total  \n");
+        System.out.print("\nProduct Id\tName\tQuantity\tUnit price\tTotal  \n");
         System.out.println("_____________________________________________________________________________________\n");
         for(int i=0;i<count;i++)
         {
             o[i].billprint();
         }
         System.out.println("_____________________________________________________________________________________\n");
-        System.out.println("  Net. Amount  "+net_am);
+        System.out.println("\t\t\t\t\t"+"Net. Amount  "+net_am);
     }
 }
