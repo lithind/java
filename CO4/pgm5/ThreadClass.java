@@ -4,16 +4,17 @@ import java.lang.*;
 import java.util.*;
 class multiplication extends Thread
 {
-public void run()
+ public synchronized void run()
 {
+    try
+    {  
     for(int i=1;i<=10;i++)
     {
         System.out.println(i+" * 5 = "+(i*5));
-        
+        Thread.sleep(500);
     }
-    try{  
-        Thread.sleep(500);  
-       }
+  
+    }
     catch(Exception e)
     {
         System.out.println(e);
@@ -25,7 +26,7 @@ class prime extends Thread
 {
 int num;
 
-public void run()
+public synchronized void run()
 {
     Scanner sc=new Scanner(System.in);
     System.out.println("count of first N prime numbers : ");

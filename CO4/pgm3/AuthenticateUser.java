@@ -19,7 +19,8 @@ class AuthenticateUser
     public static void main(String args[]) {
         
         String username,password;
-           try{
+           try
+           {
                 Scanner sc=new Scanner(System.in);
                 System.out.println("enter the username:");
                 username=sc.nextLine();
@@ -31,15 +32,18 @@ class AuthenticateUser
                      throw new  AuthPassword("incorrect password");
                 else
                      System.out.println("\t\t\tlogin successfull......");
-                }
-                 catch(AuthUsername e){
-                        System.out.println(e);
-                  }
-                  catch(AuthPassword e){
-                         System.out.println(e);
-                  }
-                 finally{
-                       System.out.println("\n \n program ends....");
-}
+            }
+            catch(AuthUsername e)
+            {
+                System.out.println(e);
+            }
+            catch(AuthPassword e)
+            {
+                System.out.println(e);
+            }
+            finally
+            {
+                System.out.println("\n \n program ends....");
+            }
 }
 }
